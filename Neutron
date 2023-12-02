@@ -1,0 +1,12 @@
+class Particle:
+    def __init__(self, Z, A):
+        self.Z = Z  # Atomic number
+        self.A = A  # Atomic mass number
+
+    def number_of_neutrons(self):
+        return self.A - self.Z
+
+#  Particle class with an example (Nitrogen-14 isotope)
+example_particle = Particle(7, 14)  # Z = 7, A = 14 
+neutron_count = example_particle.number_of_neutrons()
+print(f"The number of neutrons in the particle is: {neutron_count}")
