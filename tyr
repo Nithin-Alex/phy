@@ -9,4 +9,4 @@ if __name__ == "__main__":
     speedOfLight = 3e8   # m/s
 
     # Create an instance of RigidityCalculator
-    print(f"Rigidtye value is  {calculateRigidity(charge_value, mass_value, speedOfLight)} T*m")
+    print(f"Rigidty value is  {calculateRigidity(charge_value, mass_value, speedOfLight)} T*m")
